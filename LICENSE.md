@@ -1,0 +1,1 @@
+Synthetic Overhead Images and Ground Truth Labels of Large Wind Turbines is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
