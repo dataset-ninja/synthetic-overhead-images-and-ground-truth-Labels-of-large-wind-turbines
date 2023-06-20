@@ -14,7 +14,7 @@ PROJECT_NAME_FULL: str = "Synthetic Overhead Images and Ground Truth Labels of L
 LICENSE: License = License.CC_BY_4_0()
 INDUSTRIES: List[Industry] = [Industry.Energy()]
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
-ANNOTATION_TYPES: List[AnnotationType] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_YEAR: int = 2020
 HOMEPAGE_URL: str = "https://figshare.com/articles/dataset/Synthetic_Overhead_Images_and_Ground_Truth_Labels_of_Large_Wind_Turbines/12744902"
