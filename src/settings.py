@@ -15,6 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Large Wind Turbines (by Duke Dataplus2020)"
 PROJECT_NAME_FULL: str = "Synthetic Overhead Images and Ground Truth Labels of Large Wind Turbines"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -77,8 +78,9 @@ def get_settings():
         RELEASE_YEAR = int(RELEASE_DATE.split("-")[0])
 
     settings = {
-        "project_name": PROJECT_NAME,
+        "project_name": PROJECT_NAME
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
