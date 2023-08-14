@@ -78,7 +78,7 @@ def get_settings():
         RELEASE_YEAR = int(RELEASE_DATE.split("-")[0])
 
     settings = {
-        "project_name": PROJECT_NAME
+        "project_name": PROJECT_NAME,
         "license": LICENSE,
         "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
