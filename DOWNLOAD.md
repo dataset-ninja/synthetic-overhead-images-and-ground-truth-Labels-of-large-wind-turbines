@@ -1,6 +1,6 @@
 Dataset **Large Wind Turbines (by Duke Dataplus2020)** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/b/x/ru/3IcgPF4bIDpwfRa2E7pJAeaATyGSfc7Wl4ysCpQXUYA1HgXRC8AhCNFgPzocj5fcvdjDIKlizfwGgBgVD53eMHMY8N0k0UpqoQt8X4b34KHxIhJRRChtQM8QkMFx.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/3/Z/J1/Ug2ZpHwWEKUs0AVIGlrzB02SlOFPqZG76z6da8C3DM2xoA008PItiazXw0JFMBw4TLviCZKxQ9gzWxjjAQQINztFrm4NLSGWBSpZJGImTH6WTNlDhGjaR5J11Ftj.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
