@@ -53,10 +53,12 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = "https://doi.org/10.6084/m9.figshare.12744902.v1"
-AUTHORS: Optional[List[str]] = ["Duke Dataplus2020"]
+AUTHORS: Optional[List[str]] = None
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://figshare.com/authors/Duke_Dataplus2020/9190670"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Duke Dataplus2020"]
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://bigdata.duke.edu/participate/data-plus/"]
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
 TAGS: List[str] = None
@@ -101,6 +103,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
