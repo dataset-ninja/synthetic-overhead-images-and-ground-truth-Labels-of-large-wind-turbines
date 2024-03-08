@@ -2,7 +2,7 @@
 
 The dataset consists of 441 images with 2334 labeled objects belonging to 1 single class (*wind turbine*).
 
-Images in the Large Wind Turbines (by Duke Dataplus2020) dataset have bounding box annotations. There is 1 unlabeled image (i.e. without annotations). There is 1 split in the dataset: *train* (441 images). The dataset was released in 2020 by the Duke Dataplus2020.
+Images in the Large Wind Turbines (by Duke Dataplus2020) dataset have bounding box annotations. There is 1 unlabeled image (i.e. without annotations). There is 1 split in the dataset: *train* (441 images). The dataset was released in 2020 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">Duke Dataplus2020</span>.
 
 Here is the visualized example grid with annotations:
 
